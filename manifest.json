@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "WelcomeToTheJungle sort by date",
+  "version": "0.1",
+  "description": "Sort job offers: most recent is displayed first",
+  "background":
+  {
+    "scripts": ["backgroundScript.js"],
+    "persistent": false
+  },
+  "permissions" : [ "declarativeContent", "activeTab" ],
+  "page_action":
+  {
+       "default_icon":
+       {
+         "32": "logo.png"
+       }
+  }
+}
+
